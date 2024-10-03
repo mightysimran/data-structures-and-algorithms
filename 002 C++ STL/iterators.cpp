@@ -31,5 +31,13 @@ int main(){
     //     cout << *i << " ";
     // }
 
+    // for (auto i = v.begin(); i != v.end(); i++){
+    //     cout << *i << " ";
+    // }
+
+    // for(auto i: v){
+    //     cout << i << " ";
+    // }
+    
     return 0;
 }
