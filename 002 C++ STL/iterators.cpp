@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    // vector<int> v = {1, 2, 3, 4, 5};
+    vector<int> v = {1, 2, 3, 4, 5};
 
     // vector<int>::iterator i = v.begin(); // -> This iterator points to a memory location of first element 
 
@@ -24,6 +24,12 @@ int main(){
 
     // cout << v[0] << " " << v.at(0);
     // cout << v.back();
+
+    // How to print a vector?
+    
+    // for (vector<int>::iterator i = v.begin(); i != v.end(); i++){
+    //     cout << *i << " ";
+    // }
 
     return 0;
 }
