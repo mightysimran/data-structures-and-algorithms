@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    vector<int> v = {1, 2, 3, 4, 5};
+    // vector<int> v = {1, 2, 3, 4, 5};
 
     // vector<int>::iterator i = v.begin(); // -> This iterator points to a memory location of first element 
 
@@ -43,6 +43,16 @@ int main(){
 
     // v.erase(v.begin()); // {2,3,4,5}
     // v.erase(v.begin() + 1, v.begin() + 4); // {1,5} // [start, end)
+
+    // How to insert in a vector?
     
+    // vector<int> v(2, 100); // {100, 100}
+    
+    // v.insert(v.begin(), 25); // {25, 100, 100}
+    // v.insert(v.begin()+1, 2, 256); // {25, 256, 256, 100, 100}
+
+    // vector<int> copy(2, 50);
+    // v.insert(v.begin(), copy.begin(), copy.end()); // {50, 50, 25, 256, 256, 100, 100}
+
     return 0;
 }
