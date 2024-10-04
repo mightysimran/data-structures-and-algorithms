@@ -54,5 +54,20 @@ int main(){
     // vector<int> copy(2, 50);
     // v.insert(v.begin(), copy.begin(), copy.end()); // {50, 50, 25, 256, 256, 100, 100}
 
+    // Misc.
+
+    // vector<int> v = {1, 2, 3}
+    // cout << v.size(); // -> returns size of a vector (Here, 3)
+
+    // vector<int> v = {1, 2, 3}
+    // v.pop_back(); // -> erases the last element from a vector {1,2}
+
+    // vector<int> v1 = {10, 20}
+    // vector<int> v2 = {30, 40}
+    // v1.swap(v2); // v1 -> {30, 40} v2 -> {10, 20}
+
+    // vector<int> v = {1, 2, 3}
+    // v.clear(); // -> erases the entire vector
+
     return 0;
 }
