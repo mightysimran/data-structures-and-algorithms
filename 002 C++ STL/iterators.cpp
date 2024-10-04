@@ -38,6 +38,11 @@ int main(){
     // for(auto i: v){
     //     cout << i << " ";
     // }
+
+    // How to erase from a vector?
+
+    // v.erase(v.begin()); // {2,3,4,5}
+    // v.erase(v.begin() + 1, v.begin() + 4); // {1,5} // [start, end)
     
     return 0;
 }
