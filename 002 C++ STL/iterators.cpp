@@ -69,5 +69,8 @@ int main(){
     // vector<int> v = {1, 2, 3}
     // v.clear(); // -> erases the entire vector
 
+    // vector<int> v = {}; cout << v.empty();
+    // -> returns 1 (true) if there's nothing inside vector, returns 0 (false) if there's smth inside vector
+
     return 0;
 }
