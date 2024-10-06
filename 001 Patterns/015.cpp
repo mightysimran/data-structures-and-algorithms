@@ -1,3 +1,4 @@
+// Pattern - 15
 #include<iostream>
 using namespace std;
 

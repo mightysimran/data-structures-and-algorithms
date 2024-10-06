@@ -1,3 +1,4 @@
+// Pattern - 12
 #include<iostream>
 using namespace std;
 
